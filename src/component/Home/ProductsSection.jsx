@@ -57,7 +57,7 @@ const ProductsSection = ({ category }) => {
 
   return (
     <div className='w-full h-full'>
-      <div className='grid grid-cols-3 gap-x-8 gap-y-14'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 gap-x-8 gap-y-14'>
         {currentItems?.map((item, index) => <Card key={index} item={item} />)}
       </div>
       <div className='flex justify-center my-4'>

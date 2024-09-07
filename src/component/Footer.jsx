@@ -16,7 +16,7 @@ export function FooterComponent() {
               <span className="self-center whitespace-nowrap text-xl font-bold text-white">Furni<span className="text-[#1E99F5]">Flex</span></span>
             </Link>
           </div>
-          <div className="grid gap-[120px] grid-cols-3">
+          <div className="grid gap-[120px] grid-cols-1 lg:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold text-white">About Us</h2>
               <ul className="text-gray-500 dark:text-gray-400 font-medium">
@@ -75,8 +75,8 @@ export function FooterComponent() {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="mb-6">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-4">
+          <div className="flex items-center justify-between flex-wrap lg:flex-nowrap">
+            <div className="flex items-center gap-4 lg:justify-start justify-center w-full lg:w-max">
               <FiFacebook color="white" />
               <FiInstagram color="white" />
               <BsTwitterX color="white" />
