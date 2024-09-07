@@ -4,7 +4,7 @@ import ImageSection from '../component/Login/ImageSection'
 
 const Login = () => {
   return (
-    <div className='w-full h-screen flex'>
+    <div className='w-full h-screen lg:flex'>
       <div className='w-full h-full flex flex-col items-center justify-center flex-1'>
         <div className='mx-auto max-w-[500px] w-full p-6 rounded-[8px] bg-[#F5F5F5]'>
           <LoginForm />
